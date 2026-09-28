@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="odoo_bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#875A7B"/>
+      <stop offset="100%" stop-color="#5B3352"/>
+    </linearGradient>
+    <linearGradient id="beak_grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="125%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#3b1d34" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- App Icon Rounded Rect with 3D bottom edge -->
+  <rect x="6" y="6" width="108" height="104" rx="28" fill="#4B2844" />
+  <rect x="6" y="6" width="108" height="100" rx="28" fill="url(#odoo_bg)" filter="url(#shadow)" />
+  
+  <!-- Friendly Mascot: "Odie" the Owl / Lemur Learner -->
+  <!-- Cute Ear Tufts -->
+  <path d="M26 34 L38 20 L44 38 Z" fill="#6B3F60" />
+  <path d="M94 34 L82 20 L76 38 Z" fill="#6B3F60" />
+  
+  <!-- Face Mask / Patch -->
+  <path d="M60 42 C44 42 32 50 32 68 C32 84 44 94 60 94 C76 94 88 84 88 68 C88 50 76 42 60 42 Z" fill="#FAF5FF" />
+  
+  <!-- Big Expressive Duolingo-style Eyes -->
+  <circle cx="48" cy="62" r="12" fill="#1E293B" />
+  <circle cx="72" cy="62" r="12" fill="#1E293B" />
+  <!-- Eye Sparkles -->
+  <circle cx="51" cy="59" r="4.5" fill="#FFFFFF" />
+  <circle cx="45" cy="65" r="2" fill="#FFFFFF" />
+  <circle cx="75" cy="59" r="4.5" fill="#FFFFFF" />
+  <circle cx="69" cy="65" r="2" fill="#FFFFFF" />
+  
+  <!-- Cute Orange Beak / Nose -->
+  <polygon points="60,67 53,75 67,75" fill="url(#beak_grad)" stroke="#B45309" stroke-width="1.5" stroke-linejoin="round" />
+  
+  <!-- Blush Cheeks -->
+  <ellipse cx="36" cy="72" rx="4" ry="2.5" fill="#F472B6" opacity="0.6"/>
+  <ellipse cx="84" cy="72" rx="4" ry="2.5" fill="#F472B6" opacity="0.6"/>
+
+  <!-- Small Graduation / Scholar Odoo badge cap or crest -->
+  <path d="M42 26 L60 18 L78 26 L60 32 Z" fill="#22C55E" stroke="#15803D" stroke-width="1.5" />
+  <path d="M72 29 L75 39" stroke="#EAB308" stroke-width="2" stroke-linecap="round" />
+  <circle cx="75" cy="40" r="2.5" fill="#EAB308" />
+</svg>
